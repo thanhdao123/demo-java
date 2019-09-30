@@ -1,7 +1,9 @@
 package demo;
 
+import demo.pkg.Hello;;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        Hello.run();
     }
 }
